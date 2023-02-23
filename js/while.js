@@ -1,9 +1,9 @@
-// let count = 2
-//
-// while(count < 65536) {
-//     count = count *2
-//     console.log(count)
-// }
+let count = 2
+
+while(count < 65536) {
+    count = count *2
+    console.log(count)
+}
 
 let cones = Math.floor((Math.random() * 50) + 50);
 

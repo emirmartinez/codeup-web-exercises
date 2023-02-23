@@ -4,7 +4,7 @@ function showMultiplicationTable (num) {
     }
 }
 
-// console.log(showMultiplicationTable(5))
+console.log(showMultiplicationTable(5))
 
 function tenRandomNumbers () {
     for(let i = 1; i <= 10; i++) {
@@ -32,7 +32,7 @@ function pyramid () {
     }
 }
 
-// console.log(pyramid())
+console.log(pyramid())
 
 function subtractFive (num) {
     let count = num
@@ -42,4 +42,4 @@ function subtractFive (num) {
     }
 }
 
-// console.log(subtractFive(100))
+console.log(subtractFive(100))
