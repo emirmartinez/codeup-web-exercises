@@ -17,7 +17,7 @@ function tenRandomNumbers () {
     }
 }
 
-// console.log(tenRandomNumbers())
+console.log(tenRandomNumbers())
 
 function pyramid () {
     let num =''
