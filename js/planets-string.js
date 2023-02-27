@@ -30,11 +30,11 @@
         console.log(planet + '<br>')
     }))
 
-
     let output = '<ul>';
     for(let i = 0; i < planetsArray.length; i++) {
-        output+=(`<li>${planetsArray[i]}</li>`)
-        if(i === planetsArray.length -1) {
+        if(i !== planetsArray.length -1) {
+            output+=(`<li>${planetsArray[i]}</li>`)
+        } else {
             output+=(`<li>${planetsArray[i]}</li></ul>`)
         }
     }
