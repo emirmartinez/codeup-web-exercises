@@ -38,6 +38,5 @@
             output+=(`<li>${planetsArray[i]}</li></ul>`)
         }
     }
-
     console.log(output)
 })();
