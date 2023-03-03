@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+</head>
+<body>
+    <form method="POST" action="https://request-inspector.glitch.me/">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="text">
+        <br>
+
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password">
+        <br>
+
+        <label for="bio">Bio</label>
+        <textarea id="bio" name="bio" type="password"></textarea>
+        <br>
+        <br>
+
+        <label>How did you hear about us?</label><br>
+        <label for="billboard" >Billboard</label>
+        <input  type="radio" name="how_did_you_hear_about_us" id="billboard" value="billboard"><br>
+        <label for="billboard" >Radio Advertisement</label>
+        <input type="radio" name="how_did_you_hear_about_us" id="radio advertisement" value="radio advertisement"><br>
+        <label for="billboard" >Internet Advertisement</label>
+        <input type="radio" name="how_did_you_hear_about_us" id="internet advertisement" value="internet advertisement"><br>
+        <label for="billboard" >Other</label>
+        <input type="radio" name="how_did_you_hear_about_us" id="other" value="other"><br>
+        <br>
+        <label for="web_browser">What Web Browser are you using?</label>
+        <select name="web_browser" id="web_browser">
+            <option value="chrome">Chrome</option>
+            <option value="firefox">Firefox</option>
+            <option value="Tor">Tor</option>
+            <option value="Other">Other</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit">
+    </form>
+</body>
+</html>
