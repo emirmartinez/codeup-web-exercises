@@ -1,0 +1,51 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    font-family: Arial, Ubuntu, sans-serif;
+}
+
+.message-info {
+    background-color: #CDDEFF;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;;
+    padding: 5px 15px;
+    width: 80%;
+    border-radius: 5px;
+    color: #514CA5;
+}
+
+.message-success {
+    background-color: #CFF3DA;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 15px;
+    width: 80%;
+    border-radius: 5px;
+    color: #307A47;
+}
+
+.message-warning {
+    background-color: #FDFBC9;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 15px;
+    width: 80%;
+    border-radius: 5px;
+    color: #9B892C;
+}
+
+.message-error {
+    background-color: #FAD2D6;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 15px;
+    width: 80%;
+    border-radius: 5px;
+    color: #9F4457;
+}
